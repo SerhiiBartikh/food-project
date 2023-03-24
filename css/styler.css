@@ -53,10 +53,14 @@ a{
 
 .header{
     background-color: #FEFEFE;
+
+}
+.header-container{
     min-height: 72px;
     display: flex;
     justify-content: space-between;
 }
+
 .header-logo{
     display: flex;
     align-items: center;
