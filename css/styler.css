@@ -246,7 +246,18 @@ border-radius: 30px;
     gap: 112px;
 }
 
-/* .favorite-items{
-    width: calc((100% - 112px)/ 3);
+.offer-list-icons{
+    display: block;
+    margin-bottom: 8px;
+    
+    width:60px;
+    height:60px;
+    background-color: #fff;
+    border-radius: 50%;
+}
 
-} */
+.offer-list-icons use{
+    display: block;
+    width: 32px;
+    height: 32px;
+}
