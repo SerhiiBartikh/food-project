@@ -52,11 +52,11 @@ a{
 /* ------------------foter--------------- */
 
 .header{
+    height: 72px;
     background-color: #FEFEFE;
 
 }
 .header-container{
-    min-height: 72px;
     display: flex;
     justify-content: space-between;
 }
@@ -136,4 +136,78 @@ a{
     font-size: 16px;
     line-height: 1.5;
     color: #2C2C2C;
+}
+
+
+/* ---------------offers---------- */
+.offers-section{
+background-color: #FFE450;
+}
+
+.offers-container {
+    display: flex;
+    gap: 90px;
+    align-items: center;
+}
+
+.offers-title{
+    width: 526px;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.2;
+    color: #2C2C2C;
+
+    margin-bottom: 20px;
+}
+
+.offers-text{
+    width: 500px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2C2C2C;
+
+    margin-bottom: 20px;
+}
+
+.offer-list{
+    display: flex;
+    gap: 67px;
+}
+
+.offer-list li{
+    width: 253px;
+}
+
+.offer-list-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.4;
+    color: #2C2C2C;
+
+    margin-bottom: 16px;
+}
+
+.offer-list-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #2C2C2C;
+
+    margin-bottom: 32px;
+}
+
+.offer-button{
+    min-width: 140px;
+    height: 40px;
+    background: #FFFFFF;
+/* Dark green */
+
+border: 2px solid #7EB101;
+border-radius: 30px;
+}
+
+.offer-button:hover,
+.offer-button:focus{
+    background: #BBF330;
+    border-radius: 30px;
 }
