@@ -52,11 +52,13 @@ a{
 /* ------------------foter--------------- */
 
 .header{
-    height: 72px;
+   
     background-color: #FEFEFE;
+
 
 }
 .header-container{
+    height: 72px;
     display: flex;
     justify-content: space-between;
 }
@@ -112,7 +114,7 @@ a{
 
 /* ------------section food---------------- */
 
-.food{
+.food-container{
     display: flex;
     align-items: center;
 }
@@ -211,3 +213,40 @@ border-radius: 30px;
     background: #BBF330;
     border-radius: 30px;
 }
+
+/** ------------sectio favorite-------- */
+
+.favorites-section{
+    background-color: #F5F5F5;
+    padding: 100px 0;
+}
+
+.favorites-title{
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.16;
+    text-align: center;
+    color: #2C2C2C;
+    margin-bottom: 20px;
+}
+
+.favorites-text{
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    color: #2C2C2C;
+    margin-bottom: 40px;
+}
+
+.favorites-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 112px;
+}
+
+/* .favorite-items{
+    width: calc((100% - 112px)/ 3);
+
+} */
