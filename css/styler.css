@@ -246,71 +246,17 @@ border-radius: 30px;
     gap: 112px;
 }
 
-/* ------------oder------------ */
-
-.offer-link{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    background-color: #FFFFFF;
-    width: 48px;
-    height: 48px;
-    margin-bottom: 8px;
-}
-
-.offer-link:hover,
-.offer-link:focus{
-    background-color:#7EB101;
-}
-
-.offer-link:hover .offer-list-icons, 
-.offer-link:focus .offer-list-icons{
-    fill:  #FFE450;
-}
-
 .offer-list-icons{
-    fill: #7EB101;
-}
-
-
-
-
-/* ------------------review--------------- */
-
-.review-section{
-    background: #FFE550;
-    padding: 100px 0 200px 0;
-}
-
-.review-title{
-    font-weight: 700;
-    font-size: 42px;
-    line-height: 1.16;
-    color: #2C2C2C;
-    padding-bottom: 20px;
-}
-
-.review-text{
-    font-size: 16px;
-    line-height: 1.18;
-    color: #2C2C2C;
-    padding-bottom: 32px;
-}
-
-.review-list{
-    display: flex;
-    flex-direction: row;
-    gap: 139px;
+    display: block;
+    margin-bottom: 8px;
     
-}
-.review-items{
-    background: #FEFEFE;
-    width: 501px;
-    padding: 14px;
-    /* border: 1px solid black; */
+    width:60px;
+    height:60px;
+    background-color: #fff;
+    border-radius: 50%;
 }
 
+<<<<<<< Updated upstream
 .review-list-text{
     font-weight: 700;
     font-size: 18px;
@@ -368,4 +314,10 @@ border-radius: 30px;
 footer{
     background: #000;
     
+=======
+.offer-list-icons use{
+    display: block;
+    width: 32px;
+    height: 32px;
+>>>>>>> Stashed changes
 }
