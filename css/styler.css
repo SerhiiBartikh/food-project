@@ -127,18 +127,24 @@ a{
     height: 580px;
     border: 26px solid #FFE550;
     border-radius:50%;
-    overflow: hidden;
+    /* overflow: hidden; */
     
    
 
 
 }
 .food-animation-img{
-    width: 530px;
-    height: 530px ;
+    width: 528px;
+    height: 528px ;
     margin: 0 auto;
+    border-radius:50%;
+    overflow: hidden;
     
     
+}
+.slick-prev, .slick-next{
+ 
+  
 }
 
 .food-animation-box{
