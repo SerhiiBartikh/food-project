@@ -25,23 +25,23 @@
                     <nav class="header-navigation">
                         <ul class="header-list list">
                             <li> 
-                                <a class="header-link link" href="">Home</a>
+                                <a class="header-link link" href="#">Home</a>
                             </li>
                             <li>
-                                <a class="header-link link" href="">About</a>
+                                <a class="header-link link" href="#">About</a>
                             </li>
                             <li>
-                                <a class="header-link link" href="">Service</a>
+                                <a class="header-link link" href="#">Service</a>
                             </li>
                             <li>
-                                <a class="header-link link" href="">Menu</a>
+                                <a class="header-link link" href="#">Menu</a>
                             </li>
                             <li>
-                                <a class="header-link link" href="">Contact</a>
+                                <a class="header-link link" href="#">Contact</a>
                             </li>
                         </ul>
                     </nav>
-                    <button class="button" type="button">Order Now</button>
+                    <button class="button" type="button"  data-modal-open >Order Now</button>
                 </div>
         </div>
 
@@ -57,7 +57,7 @@
                         Enjoy Your Favorite Food From Anywhere
                     </h1>
                     <p class="food-description">With just a few clicks, you can have your favorite meals delivered straight to your doorstep, no matter where you are. Order now and enjoy a hassle-free and delicious meal from the comfort of your own home.</p>
-                    <button class="button" type="button">Order Now</button>
+                    <button class="button" type="button" data-modal-open>Order Now</button>
                 </div>
                 
                
@@ -109,7 +109,7 @@
                         <p class="offer-list-text">You can browse through a wide variety of cuisines and restaurants, select your favorite meals, and place your order in just a few clicks.</p>
                     </li>
                 </ul>
-                <button class="offer-button" type="button">Order Now</button>
+                <button  data-modal-open class="offer-button" type="button">Order Now</button>
             </div>
         </div>
     </section>
@@ -239,11 +239,21 @@
             <img src="./img/banan.jpg" alt="banan" width="608" height="266">
         </div>
     </section>
+    <div class="backdrop" data-modal>
+        <div class="modal">
+            <button class="close-button" type="button" data-modal-close >
+                <svg width="20" height="20">
+                    <use href="./img/icomoon/symbol-defs.svg#icon-close-black" ></use>
+                </svg>
+            </button>
+        </div>
+    </div>
     
     </main>
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>    
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="/js/slider.js"></script>
+    <script src="/js/modal.js"></script>
 </body>
 </html>
