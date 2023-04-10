@@ -117,7 +117,7 @@ a {
   height: 580px;
   border: 26px solid #ffe550;
   border-radius: 50%;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 .food-animation-img {
   width: 528px;
