@@ -515,9 +515,44 @@ footer {
 }
 
 
+.label{
+  font-size: 12px;
+  line-height: 1.16;
+ 
+  color: #8E8F99;
 
+  margin-bottom: 4px;
+  
+  
+}
 .modal-form{
   display: flex;
   flex-direction: column;
 }
 
+.input{
+  width: 100%;
+  height: 40px;
+  margin-bottom: 8px;
+ opacity: 0.2;
+/* NAVY BLUE */
+
+border: 1px solid #2E2F42;
+  border-radius: 4px;
+  outline: none;
+  padding-left: 38px;
+}
+
+.modal-textarea{
+opacity: 0.2;
+/* NAVY BLUE */
+height: 120px;
+border: 1px solid #2E2F42;
+border-radius: 4px;
+padding: 8px 16px;
+}
+
+.input:focus{
+  border-color: #000000
+ 
+}
