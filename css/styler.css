@@ -589,5 +589,31 @@ footer {
     position: relative;
     margin-bottom: 8px;
   }
+..modal-checkbox-label{
+  display: block;
+}
 
+.modal-checkbox-label::before{
+  content:"";
+  display: block;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #303030;
+ cursor: pointer;
+  border-radius: 2px;
+}
+
+
+
+.modal-checkbox-input:checked + .modal-checkbox-label::before{
   
+  background-image:url(../img/true.icon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: blue;
+  
+}
+
+
+
+  /* ==============dont forget about TRANSITION=========== */
